@@ -186,6 +186,44 @@
 			productReference = 4C0AE88E2F76D60C00160C9E /* ColorPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4C0AE8A52F77B05100160C9E /* ColorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0AE8B82F77B05200160C9E /* Build configuration list for PBXNativeTarget "ColorWidgetExtension" */;
+			buildPhases = (
+				4C0AE8A22F77B05100160C9E /* Sources */,
+				4C0AE8A32F77B05100160C9E /* Frameworks */,
+				4C0AE8A42F77B05100160C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = ColorWidgetExtension;
+			productReference = 4C0AE8A62F77B05100160C9E /* ColorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4C0AE8C02F77BA9700160C9E /* ColorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0AE8CF2F77BA9800160C9E /* Build configuration list for PBXNativeTarget "ColorWidgetExtension" */;
+			buildPhases = (
+				4C0AE8BD2F77BA9700160C9E /* Sources */,
+				4C0AE8BE2F77BA9700160C9E /* Frameworks */,
+				4C0AE8BF2F77BA9700160C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = ColorWidgetExtension;
+			productReference = 4C0AE8C12F77BA9700160C9E /* ColorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4C0AE8D62F77BBEB00160C9E /* ColorWidgetExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C0AE8E52F77BBEB00160C9E /* Build configuration list for PBXNativeTarget "ColorWidgetExtension" */;
@@ -247,7 +285,9 @@
 			projectRoot = "";
 			targets = (
 				4C0AE88D2F76D60C00160C9E /* ColorPicker */,
-						4C0AE8D62F77BBEB00160C9E /* ColorWidgetExtension */,
+				4C0AE8A52F77B05100160C9E /* ColorWidgetExtension */,
+				4C0AE8C02F77BA9700160C9E /* ColorWidgetExtension */,
+				4C0AE8D62F77BBEB00160C9E /* ColorWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -385,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -442,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
